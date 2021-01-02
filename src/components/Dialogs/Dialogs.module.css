@@ -1,0 +1,44 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogsItems{
+    padding: 10px;
+}
+
+.dialogsItems .active{
+    color: rgb(221, 201, 149);
+}
+
+.dialog{
+    color: wheat;
+}
+.dialog img{
+ width: 50px;
+}
+
+
+.messages{
+    padding: 10px;
+}
+
+.message{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8fr;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+.message:nth-child(1n){
+    text-align: right;
+}
+.message:nth-child(2n){
+    text-align: left;
+}
+
+
+.messages .message {
+    color: wheat;
+}
